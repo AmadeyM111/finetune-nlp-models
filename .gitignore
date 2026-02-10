@@ -1,0 +1,30 @@
+# Model outputs, checkpoints, adapters
+SmolLM2-F2-MyDataset/
+*.safetensors
+*.pt
+*.pth
+*.bin
+*.gguf
+
+# Training metrics / traces
+training_metrics.csv
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE / editors
+.history/
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Hugging Face cache
+.cache/
